@@ -1,0 +1,22 @@
+# Quartus generated folders
+/db/
+/incremental_db/
+/output_files/
+
+# Quartus project files
+*.qpf
+de0_blinkL.qsf
+*.qws
+*.bak
+
+# ModelSim generated folders and files
+/work
+*.mti
+*.mpf
+*.wlf
+
+# drawio
+*.bkp
+
+# for store waveform images
+sim_result/
