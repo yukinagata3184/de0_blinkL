@@ -10,7 +10,7 @@ module de0_blinkL(
 wire gen1hz;
 cnt1sec cnt1sec(.CLK(CLK), .RST(RST), .gen1hz(gen1hz));
 
-reg state_l;
+wire state_l;
 stateL stateL(.CLK(CLK), .RST(RST), .transition(gen1hz), .state_l(state_l));
 
 gpio_ctrl gpio_ctrl(.state(state_l), .GPIO0_D(GPIO0_D));
