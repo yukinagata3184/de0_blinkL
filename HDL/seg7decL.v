@@ -9,7 +9,7 @@ module seg7decL(
 function [6:0] segdecL;
 input en;
     case(en)
-        1'b0:    segdecL = 7'b100_0000;
+        1'b0:    segdecL = 7'b111_1111;
         1'b1:    segdecL = 7'b100_0111;
         default: segdecL = 7'bxxx_xxxx;
     endcase
